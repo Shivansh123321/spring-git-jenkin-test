@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringGitJenkinTestApplicationTests {
 	public static Logger logger =LoggerFactory.getLogger(SpringGitJenkinTestApplicationTests.class);
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		logger.info("test case executing....");
 		logger.info("test case executing second time....");
 		assertEquals(true,true);
