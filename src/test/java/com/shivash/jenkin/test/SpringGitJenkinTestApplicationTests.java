@@ -13,6 +13,7 @@ class SpringGitJenkinTestApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case executing....");
+		logger.info("test case executing second time....");
 		assertEquals(true,true);
 	}
 
